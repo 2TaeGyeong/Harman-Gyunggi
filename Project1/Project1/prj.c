@@ -3,7 +3,7 @@
 #include <malloc.h>
 
 void MemoryDump(int start, int length);	//함수의 prototype
-char buf[100];
+char buf[200];
 
 int main(int argc, char *argv[])	// pointerSample 10000 500    // Command Line 명령어
 									// 10000: Start memory 주소  500: Dump할 메모리 크기
